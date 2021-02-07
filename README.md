@@ -28,3 +28,13 @@ class component:
                 
 
 **state in either components cann't be change directly**
+
+
+## props vs state
+
+---------------------------------------------------------|---------------------------------------------------------
+                props                                    |                      state
+-------------------------------------------------------------------------------------------------------------------
+        props get pass to the component                  |          state is managed within the component
+        props are immutable                              |          state can be change, with setState
+        
