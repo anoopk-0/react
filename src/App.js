@@ -1,5 +1,7 @@
 import { Component } from "react";
 
+import AppLifeCycle from './components/life-cycle/AppLifeCycle';
+
 
 class App extends Component {
 	state = {
@@ -7,7 +9,11 @@ class App extends Component {
 	}
 
 	render() {
-		return <h1>{this.state.title}</h1>
+		return (
+			<>
+				<AppLifeCycle />
+			</>
+		)
 	}
 }
 
