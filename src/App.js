@@ -1,7 +1,5 @@
 import { Component } from "react";
-
-import AppLifeCycle from './components/life-cycle/AppLifeCycle';
-
+import AppPortal from './components/portal/AppPortal';
 
 class App extends Component {
 	state = {
@@ -11,10 +9,11 @@ class App extends Component {
 	render() {
 		return (
 			<>
-				<AppLifeCycle />
+				<AppPortal />
 			</>
 		)
 	}
 }
 
 export default App;
+
