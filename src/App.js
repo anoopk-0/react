@@ -1,5 +1,7 @@
 import { Component } from "react";
-import AppPortal from './components/portal/AppPortal';
+
+import HomeCompoundCompo from './components/compount-component/HomeCompoundCompo';
+import './App.scss';
 
 class App extends Component {
 	state = {
@@ -9,7 +11,7 @@ class App extends Component {
 	render() {
 		return (
 			<>
-				<AppPortal />
+				<HomeCompoundCompo />
 			</>
 		)
 	}
