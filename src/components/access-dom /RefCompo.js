@@ -46,6 +46,8 @@ There are a few good use cases for refs:
     Triggering imperative animations.
     Integrating with third-party DOM libraries.
 
-React will assign the current property with the DOM element when the component mounts, and assign it back to null when it unmounts. ref updates happen before componentDidMount or componentDidUpdate lifecycle methods.
+React will assign the current property with the DOM element when the component mounts, and assign it back to null when it unmounts.
+
+ref updates happen before componentDidMount or componentDidUpdate lifecycle methods.
 
 */

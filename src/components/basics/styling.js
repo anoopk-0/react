@@ -24,4 +24,6 @@ const styles = {
  * inline css
  * css module
  * css in js lib {styled component}
+ * 
+ * We can use the classNames package to create class names that are dynamic with objects and arrays so that we don’t have to do it ourselves.
  */

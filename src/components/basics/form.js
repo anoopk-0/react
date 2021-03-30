@@ -38,4 +38,17 @@ export default Form;
 /*
  form value whose  value is controlled by react is called controlled component.
  taking an example of input. value is set by state , and when the user change the value.. onchnage event is fired which change the state of the state and ui is updated.
+
+In a controlled component, form data is handled by a React component. The alternative is uncontrolled components, where form data is handled by the DOM itself.
+
+Uncontrolled components store their data in the DOM like a traditional HTML input element.
+
+Refs are attached to input elements using the ref attribute on the element in question.
+
+Refs are often used as instance properties on a component. The ref is set in the constructor and the value is available throughout the component.
+
+You cannot use the ref attribute on functional components(assccing form other component) because an instance is not created
+
+BUT, You can use a ref attribute inside a functional component
+ 
 */
