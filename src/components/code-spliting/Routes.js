@@ -11,7 +11,7 @@ const About = lazy(
         './About')
 );
 const Login = lazy(() => import('./Login'));
-const Home = lazy(() => import('./Home'));
+const Home = lazy(() => import(/*webpackChunkName:'Home'*/'./Home'));
 
 const Routes = () => {
     return (

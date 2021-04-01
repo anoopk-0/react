@@ -19,3 +19,6 @@ class AppAccessDOM extends Component {
 }
 
 export default AppAccessDOM;
+
+
+//important: [https://blog.logrocket.com/cleaning-up-the-dom-with-forwardref-in-react/]

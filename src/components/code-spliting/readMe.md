@@ -83,4 +83,4 @@ const App = () => (
     </Router>
 );
 
-//React.lazy currently only supports default exports
+**React.lazy currently only supports default exports**

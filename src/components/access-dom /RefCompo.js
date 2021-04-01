@@ -50,4 +50,14 @@ React will assign the current property with the DOM element when the component m
 
 ref updates happen before componentDidMount or componentDidUpdate lifecycle methods.
 
+
+
+**Important**
+we want to change the value of a child component, without making use of props and all.
+
+When not to use refs 
+
+Should not be used with functional components because they don’t have instances.
+Not to be used on things that can be done declaratively.
+
 */

@@ -1,7 +1,11 @@
 import { Component } from "react";
 
-import HomeCompoundCompo from './components/compount-component/HomeCompoundCompo';
 import './App.scss';
+import AppAccessDOM from './components/access-dom /AppAccessDOM';
+import AppHOC from './components/advance/hoc/AppHOC';
+import AppRenderProps from './components/advance/render-props/AppRenderProps';
+import AppCodeSpliting from './components/code-spliting/AppCodeSpliting';
+import AppLifeCycle from './components/life-cycle/AppLifeCycle';
 
 class App extends Component {
 	state = {
@@ -11,7 +15,7 @@ class App extends Component {
 	render() {
 		return (
 			<>
-				<HomeCompoundCompo />
+				<AppLifeCycle />
 			</>
 		)
 	}
